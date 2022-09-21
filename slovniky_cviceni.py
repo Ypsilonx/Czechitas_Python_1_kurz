@@ -1,7 +1,8 @@
 # 1. úkol:
 
-# vysvedceni = {'Matematika': 1, 'Biologie': 2, 'Chemie': 1}
-# print('Známky z předmětů:', 'Matika - ', vysvedceni['Matematika'], 'Biologie - ', vysvedceni['Biologie'], 'Chemie - ', vysvedceni['Chemie'])
+vysvedceni = {'Matematika': 1, 'Biologie': 2, 'Chemie': 1}
+print(f"Známky z předmětů: \nMatika - {vysvedceni['Matematika']} \nBiologie - {vysvedceni['Biologie']} \nChemie - {vysvedceni['Chemie']}")
+
 
 # 2. úkol:
 
@@ -53,17 +54,17 @@
 
 # BONUS:
 
-passwords = {
-    "Jiří": "tajne-heslo", 
-    "Natálie": "jeste-tajnejsi-heslo", 
-    "Klára": "nejtajnejsi-heslo"
-}
-login = input('Zadej své jméno: ')
-if login in passwords:
-    heslo = input('Napiš HESLO: ')
-    if heslo == passwords.get(login):
-        print('Smíš vstoupit.')
-    else:
-        print('Špatné heslo.')
-else:
-    print('Špatné jméno.')
+# passwords = {
+#     "Jiří": "tajne-heslo", 
+#     "Natálie": "jeste-tajnejsi-heslo", 
+#     "Klára": "nejtajnejsi-heslo"
+# }
+# login = input('Zadej své jméno: ')
+# if login in passwords:
+#     heslo = input('Napiš HESLO: ')
+#     if heslo == passwords.get(login):
+#         print('Smíš vstoupit.')
+#     else:
+#         print('Špatné heslo.')
+# else:
+#     print('Špatné jméno.')
