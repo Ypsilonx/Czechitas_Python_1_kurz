@@ -1,7 +1,7 @@
 # 1. úkol:
 
-vysvedceni = {'Matematika': 1, 'Biologie': 2, 'Chemie': 1}
-print(f"Známky z předmětů: \nMatika - {vysvedceni['Matematika']} \nBiologie - {vysvedceni['Biologie']} \nChemie - {vysvedceni['Chemie']}")
+# vysvedceni = {'Matematika': 1, 'Biologie': 2, 'Chemie': 1}
+# print(f"Známky z předmětů: \nMatika - {vysvedceni['Matematika']} \nBiologie - {vysvedceni['Biologie']} \nChemie - {vysvedceni['Chemie']}")
 
 
 # 2. úkol:

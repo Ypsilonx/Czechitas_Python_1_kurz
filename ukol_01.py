@@ -8,5 +8,7 @@ baliky = {
 kod_baliku = input('Zadej kód balíku: ')
 if True == baliky.get(kod_baliku):
     print('Balík byl předán kurýrovi')
-else:
+elif False == baliky.get(kod_baliku):
     print('Balík zatím nebyl předán kurýrovi')
+else:
+    print('Zadal si špatné číslo balíku.')
