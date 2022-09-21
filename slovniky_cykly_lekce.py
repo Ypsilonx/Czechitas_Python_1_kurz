@@ -2,7 +2,7 @@ sales = {
     "Zkus mě chytit": 4165,
     "Vrah zavolá v deset": 5681,
     "Zločinný steh": 2565,
-    "Ucho belzebuba": 3584,
+    "Ucho belzebuba": 3585,
 }
 
 for key in sales:
