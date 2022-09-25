@@ -3,6 +3,7 @@
 - Říkal jsem si, že udělám malý návod na odesílání souborů a potvrzování změn do Github.
 
 (Moje verze VSC *Visual studio code* se může lišit od té vaší.)
+
 Zde návod:
 1. Ikonka, kde se zobrazují změny, které jste v kódu/souborech/složkách udělali (jedná se o složku kterou jste zadávali při zakládání repository) - jednoduše řečeno - VSC kontroluje celou složku co se v ní děje.
 2. Seznam souborů, kde se změny udály - při kliknutí na něj se vám zobrazí, sloupce, kde a jakou změnu jste udělali - porovnání současného stavu se stavem předešlým.
