@@ -5,10 +5,12 @@ baliky = {
     "B501X": True,
     "B947X": False,
 }
-kod_baliku = input('Zadej kód balíku: ')
-if True == baliky.get(kod_baliku):
-    print('Balík byl předán kurýrovi')
-elif False == baliky.get(kod_baliku):
-    print('Balík zatím nebyl předán kurýrovi')
-else:
-    print('Zadal si špatné číslo balíku.')
+kod_baliku = ''
+while kod_baliku not in baliky:
+    kod_baliku = input('Zadej kód balíku: ')
+    if True == baliky.get(kod_baliku):
+        print('Balík byl předán kurýrovi')
+    elif False == baliky.get(kod_baliku):
+        print('Balík zatím nebyl předán kurýrovi')
+    else:
+        print('Zadal si špatné číslo balíku.')
