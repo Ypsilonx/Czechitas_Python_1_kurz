@@ -14,6 +14,8 @@
 #     "Chemie": 4,
 # }
 
+# print(list(school_report.keys()))
+
 # pocet_jednicek = list(school_report.values()).count(1)
 # print(pocet_jednicek)
 # bez funkce list - máme pouze dict_values a nelze použit count
@@ -105,4 +107,4 @@
 # znak_plzen = 'P'
 # for spz, jmeno in plates.items():
 #     if spz[1] == znak_plzen:
-#         print(f'Auto je registrováno v Plzni se jménem {jmeno}.')
+#         print(f'Auto s {spz} je registrováno v Plzni se jménem {jmeno}.')
