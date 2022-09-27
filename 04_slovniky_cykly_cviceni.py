@@ -1,25 +1,46 @@
 # 1. úkol:
+import statistics
 
-# school_report = {
-#     "Český jazyk": 1,
-#     "Anglický jazyk": 1,
-#     "Matematika": 1,
-#     "Přírodopis": 2,
-#     "Dějepis": 1,
-#     "Fyzika": 2,
-#     "Hudební výchova": 4,
-#     "Výtvarná výchova": 2,
-#     "Tělesná výchova": 3,
-#     "Chemie": 4,
-# }
+school_report = {
+    "Český jazyk": 1,
+    "Anglický jazyk": 1,
+    "Matematika": 1,
+    "Přírodopis": 2,
+    "Dějepis": 1,
+    "Fyzika": 2,
+    "Hudební výchova": 4,
+    "Výtvarná výchova": 2,
+    "Tělesná výchova": 3,
+    "Chemie": 4,
+}
 
 # 1.varianta:
 
+# prumer_znamek = statistics.mean(school_report.values())
+# print(prumer_znamek)
+
+# predmety = len(school_report)
+# print(predmety)
+# znamky = sum(school_report.values())
+# print(znamky)
+# prumer_znamek = znamky/predmety
+# print(f'Průměrná známka z vysvědčení je {prumer_znamek}.')
+
 # celk_znamka = 0
 # pocet_znamek = 0
-# for key, value in school_report.items():
-#     celk_znamka += value
+# for predmet in school_report:
+#     celk_znamka += school_report[predmet]
 #     pocet_znamek += 1
+#     print(f'{predmet}')
+# avg_znamka = celk_znamka/pocet_znamek
+# print(f'Průměrná známka z vysvědčení je {avg_znamka}.')
+
+# celk_znamka = 0
+# pocet_znamek = 0
+# for predmet, znamka in school_report.items():
+#     celk_znamka += znamka
+#     pocet_znamek += 1
+#     print(f'{predmet}')
 # avg_znamka = celk_znamka/pocet_znamek
 # print(f'Průměrná známka z vysvědčení je {avg_znamka}.')
 
