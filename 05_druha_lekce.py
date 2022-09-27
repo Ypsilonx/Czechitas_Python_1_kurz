@@ -23,3 +23,8 @@
     
 # for key, value in sales.items():
 #     print(f'Klíč {key} -- {value}.')
+
+# slovnik = {1: 'a', 2: 'b',3: 'c'}
+
+# for item in 'Andrea':
+#     print(item)
