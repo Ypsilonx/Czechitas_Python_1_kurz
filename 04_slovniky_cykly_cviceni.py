@@ -1,18 +1,22 @@
 # 1. úkol:
-import statistics
+# import statistics
 
-school_report = {
-    "Český jazyk": 1,
-    "Anglický jazyk": 1,
-    "Matematika": 1,
-    "Přírodopis": 2,
-    "Dějepis": 1,
-    "Fyzika": 2,
-    "Hudební výchova": 4,
-    "Výtvarná výchova": 2,
-    "Tělesná výchova": 3,
-    "Chemie": 4,
-}
+# school_report = {
+#     "Český jazyk": 1,
+#     "Anglický jazyk": 1,
+#     "Matematika": 1,
+#     "Přírodopis": 2,
+#     "Dějepis": 1,
+#     "Fyzika": 2,
+#     "Hudební výchova": 4,
+#     "Výtvarná výchova": 2,
+#     "Tělesná výchova": 3,
+#     "Chemie": 4,
+# }
+
+# pocet_jednicek = list(school_report.values()).count(1)
+# print(pocet_jednicek)
+# bez funkce list - máme pouze dict_values a nelze použit count
 
 # 1.varianta:
 
