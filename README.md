@@ -3,3 +3,6 @@
 ## 1.lekce - 20.9.2022 - DONE
 - Opáčko na základy Pythonu, zprovoznění Github a ukázka jak nahrávat soubory (projekty), teorie slovníky v pythonu + cvičení
 - Zadán DÚ -> HOTOVO
+## 2.lekce - 27.9.2022 - 
+- dotazy a opáčko z minula, 
+- 

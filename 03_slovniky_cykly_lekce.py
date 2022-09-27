@@ -31,13 +31,14 @@
 #     {"title": "Zločinný steh", "sold": 2565, "price": 369, "year": 2019},
 #     {"title": "Bidnici", "sold": 3549, "price": 669, "year": 2018},
 #     {"title": "Šoupátka", "sold": 6843, "price": 429, "year": 2020},
-# ] 
-# #-- POZOR! - slovníky vložené do seznamu
+# ]
 
-# # sales = 0
-# # for item in books:
-# #     sales += item['sold']
-# # print(f'Celkem bylo prodáno {sales} knih.')
+#-- POZOR! - slovníky vložené do seznamu
+
+# sales = 0
+# for item in books:
+#     sales += item['sold']
+# print(f'Celkem bylo prodáno {sales} knih.')
 
 # timeYear = int(input('Zadej jaký rok byly knihy vydány: '))
 
@@ -46,3 +47,8 @@
 #     if item['year'] == timeYear:
 #         sales += item['sold'] * item['price']
 # print(f'Celkem bylo prodáno knih v roce {timeYear} za {sales} Kč.')
+
+# sales = 0
+# for item in books:
+#     sales += item['sold'] * item['price']
+# print(f'Celkem bylo prodáno knih za {sales} kč.')
