@@ -51,21 +51,21 @@
 # - Naopak 4 není prvočíslo, protože je dělitelná 1, 2 a 4.
 
 zadane_cislo = int(input('Zadej jakékoliv číslo: '))
-# delitele = []
+delitele = []
 prvocislo = True
-# for delitel in range(1, (zadane_cislo + 1)):
-#     if 1 < (zadane_cislo / delitel) < zadane_cislo and (zadane_cislo % delitel == 0):
-#         delitele.append(delitel)
-#         print(f'{delitele}')
+for delitel in range(1, (zadane_cislo + 1)):
+    if 1 < (zadane_cislo / delitel) < zadane_cislo and (zadane_cislo % delitel == 0):
+        delitele.append(delitel)
+        print(f'{delitele}')
 if zadane_cislo > 1:    
     for delitel in range(2, zadane_cislo):
         if (zadane_cislo % delitel) == 0:
             prvocislo = False
             break
 if prvocislo:
-    print(f'{zadane_cislo} je prvočíslo')
+    print(f'{zadane_cislo} je prvočíslo, protože je dělitelné 1 a {zadane_cislo}.')
 else:
-    print(f'{zadane_cislo} není prvočíslo')
+    print(f'{zadane_cislo} není prvočíslo, protože je dělitelné 1, {delitele} a {zadane_cislo}.')
 
 # od lektorky:
 

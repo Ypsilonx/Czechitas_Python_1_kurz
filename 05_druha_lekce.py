@@ -100,8 +100,8 @@ print(f"Průměrná hodnota na osobu je {round(average_value)} Kč.")
 # cvičení "Spolubydlící":
 
 for person, value in sum_per_person.items():
-    rozdil = value - average_value
+    rozdil = round(value - average_value)
     if rozdil >= 0:
-        print(f'{person} by měl dostat {round(rozdil)},- Kč.')
+        print(f'{person} by měl/a dostat {rozdil},- Kč.')
     else:
-        print(f'{person} by měl doplatit {-(round(rozdil))},- Kč.')
+        print(f'{person} by měl/a doplatit {-(rozdil)},- Kč.')
