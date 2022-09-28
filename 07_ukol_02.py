@@ -503,9 +503,9 @@ staty = [
 
 jaky_region = input('Zadej region: ')
 
-for stat in staty:
-    if stat['region'] == jaky_region:
-        print(f"V {jaky_region} je stát {stat['name']}.")
+for hledan_stat in staty:
+    if hledan_stat['region'] == jaky_region:
+        print(f"V {jaky_region} je stát {hledan_stat['name']}.")
 
 
 ## Bonus:
