@@ -72,9 +72,9 @@
 # zadane_cislo = int(input("Zadej cislo: "))
 # je_prvocislo = True
 
-# if num > 1:
+# if zadane_cislo > 1:
 #     for i in range(2, zadane_cislo):
-#         if (num % i) == 0:
+#         if (zadane_cislo % i) == 0:
 #             je_prvocislo = False
 #             break
 # if je_prvocislo:
