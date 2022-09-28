@@ -101,7 +101,7 @@ print(f"Průměrná hodnota na osobu je {round(average_value)} Kč.")
 
 for person, value in sum_per_person.items():
     rozdil = value - average_value
-    if rozdil > 0:
+    if rozdil >= 0:
         print(f'{person} by měl dostat {round(rozdil)},- Kč.')
     else:
         print(f'{person} by měl doplatit {-(round(rozdil))},- Kč.')
