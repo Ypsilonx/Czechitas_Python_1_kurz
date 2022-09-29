@@ -503,13 +503,16 @@ staty = [
 
 jaky_region = input('Zadej region: ')
 
+print(f'V regionu {jaky_region} jsou:')
+regiony = []
 for item in staty:
     region = item['region']
     state = item['name']
+    regiony.append(region)
     if region == jaky_region:
-        print(f'Stát v regionu je {state}.')
-    else:
-        print(f'Neznámý region.')
+        print(f'{state}')
+if jaky_region not in regiony:
+    print('Neznámý region.')
 
 ## Bonus:
 # Vytvoř program, který se uživatele zeptá na region, který ho zajímá. Následně sestav slovník, který bude obsahovat celkové počty obyvatel pro jednotlivé subregiony v daném regionu. Například pokud uživatel zadá `Europe`, tak by měl být výsledek následující:
