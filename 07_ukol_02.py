@@ -511,10 +511,22 @@ for item in staty:
     else:
         print(f'Neznámý region.')
 
-
 ## Bonus:
 # Vytvoř program, který se uživatele zeptá na region, který ho zajímá. Následně sestav slovník, který bude obsahovat celkové počty obyvatel pro jednotlivé subregiony v daném regionu. Například pokud uživatel zadá `Europe`, tak by měl být výsledek následující:
 
+jaky_region = input('Zadej region: ')
+
+celk_populace = {}
+for item in staty:
+    region = item['region']
+    subregion = item['subregion']
+    populace = item['population']
+    if region == jaky_region:
+        if subregion in celk_populace:
+            celk_populace[subregion] += populace
+        else:
+            celk_populace[subregion] = populace
+print(celk_populace)
 
 {'Northern Europe': 104628222, 'Southern Europe': 152182570, 'Western Europe': 194539965, 'Eastern Europe': 295337425}
 
