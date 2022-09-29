@@ -503,12 +503,13 @@ staty = [
 
 jaky_region = input('Zadej region: ')
 
-seznam_statu = []
-for hledan_stat in staty:
-    if hledan_stat['region'] == jaky_region:
-        seznam_statu.append(hledan_stat['name'])
-        print(seznam_statu)
-        print(f"V {jaky_region} je stát {hledan_stat['name']}.")
+for item in staty:
+    region = item['region']
+    state = item['name']
+    if region == jaky_region:
+        print(f'Stát v regionu je {state}.')
+    else:
+        print(f'Neznámý region.')
 
 
 ## Bonus:
