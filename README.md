@@ -6,5 +6,6 @@
 ## 2.lekce - 27.9.2022 - DONE
 * dotazy a opáčko z minula, seznamy slovníků s cykly (funkce for), range a práce s ní
 * na doma si projít range s cvičením
-- Zadán DÚ -> PROGRES
+- Zadán DÚ -> DONE
+  - pořádně si projít nějaké úkoly a cvičení a pročíst si co jsme probrali -> možná zkusit procvičit v codewars
 * pro příště -> funkce se slovníky
