@@ -50,34 +50,66 @@
 # - Například 5 je prvočíslo, protože je dělitelná pouze 1 a 5.
 # - Naopak 4 není prvočíslo, protože je dělitelná 1, 2 a 4.
 
-zadane_cislo = int(input('Zadej jakékoliv číslo: '))
-delitele = []
-prvocislo = True
-for delitel in range(1, (zadane_cislo + 1)):
-    if 1 < (zadane_cislo / delitel) < zadane_cislo and (zadane_cislo % delitel == 0):
-        delitele.append(delitel)
-        print(f'{delitele}')
-if zadane_cislo > 1:    
-    for delitel in range(2, zadane_cislo):
-        if (zadane_cislo % delitel) == 0:
-            prvocislo = False
-            break
-if prvocislo:
-    print(f'{zadane_cislo} je prvočíslo, protože je dělitelné 1 a {zadane_cislo}.')
-else:
-    print(f'{zadane_cislo} není prvočíslo, protože je dělitelné 1, {delitele} a {zadane_cislo}.')
+# zadane_cislo = int(input('Zadej jakékoliv číslo: '))
+# delitele = []
+# prvocislo = True
+# for delitel in range(1, (zadane_cislo + 1)):
+#     if 1 < (zadane_cislo / delitel) < zadane_cislo and (zadane_cislo % delitel == 0):
+#         delitele.append(delitel)
+#         print(f'{delitele}')
+# if zadane_cislo > 1:    
+#     for delitel in range(2, zadane_cislo):
+#         if (zadane_cislo % delitel) == 0:
+#             prvocislo = False
+#             break
+# if prvocislo:
+#     print(f'{zadane_cislo} je prvočíslo, protože je dělitelné 1 a {zadane_cislo}.')
+# else:
+#     print(f'{zadane_cislo} není prvočíslo, protože je dělitelné 1, {delitele} a {zadane_cislo}.')
 
-# od lektorky:
+# od lektorky (ale upravil jsem):
 
 # zadane_cislo = int(input("Zadej cislo: "))
-# je_prvocislo = True
+# if zadane_cislo == 1:
+#     print(f'{zadane_cislo} není prvočíslo.')
+# else:
+#     je_prvocislo = True
 
 # if zadane_cislo > 1:
 #     for i in range(2, zadane_cislo):
 #         if (zadane_cislo % i) == 0:
 #             je_prvocislo = False
 #             break
-# if je_prvocislo:
-#     print(f'{zadane_cislo} je prvočíslo.')
-# else:
-#     print(f'{zadane_cislo} není prvočíslo.')
+#     if je_prvocislo:
+#         print(f'{zadane_cislo} je prvočíslo.')
+#     else:
+#         print(f'{zadane_cislo} není prvočíslo.')
+
+# for c in range(1, 10):
+#     if (10 % c) == 0:
+#         print(c)
+
+# cvičení WHILE:
+
+# import random
+
+# # zadane_cislo = int(input("Zkus trefit tajné číslo: "))
+# # tajne_cislo = random.randint(1,(100 + 1))
+# # print(tajne_cislo)
+# # while zadane_cislo != tajne_cislo:
+# #     print("Aj, vedle zkus to znova.")
+# #     zadane_cislo = int(input("Zadej číslo znovu: "))
+# # print("Hurá trefa!!! ;-)")
+
+# zadane_cislo = int(input('Zkus hádat tajné číslo: '))
+# tajne_cislo = random.randint(1,(100 + 1))
+
+# while zadane_cislo != tajne_cislo:
+#     if zadane_cislo > tajne_cislo:
+#         print('Jsi mimo. Tajné číslo je menší.')
+#         zadane_cislo = int(input('Zadej číslo znovu: '))
+#     elif zadane_cislo < tajne_cislo:
+#         print('Jsi mimo. Tajné číslo je větší.')
+#         zadane_cislo = int(input('Zadej číslo znovu: '))
+
+# print('Hurá trefa!!! ;)')
