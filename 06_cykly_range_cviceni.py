@@ -101,15 +101,24 @@
 # #     zadane_cislo = int(input("Zadej číslo znovu: "))
 # # print("Hurá trefa!!! ;-)")
 
+# dolni_hranice = int(input('Zadej spodní hranici pro hádání: '))
+# horni_hranice = int(input('Zadej horní hranici pro hádání: '))
+# pocet_pokusu = int(input('Zadej kolik šancí dáš hráči k uhádnutí: '))
 # zadane_cislo = int(input('Zkus hádat tajné číslo: '))
-# tajne_cislo = random.randint(1,(100 + 1))
-
+# tajne_cislo = random.randint(dolni_hranice,(horni_hranice + 1))
+# progres = 'Jsi mimo. Tajné číslo je'
+# porovnani = ''
+# pokus = 0
 # while zadane_cislo != tajne_cislo:
 #     if zadane_cislo > tajne_cislo:
-#         print('Jsi mimo. Tajné číslo je menší.')
-#         zadane_cislo = int(input('Zadej číslo znovu: '))
+#         porovnani = 'menší'
+#         print(f'{progres} {porovnani}.')
 #     elif zadane_cislo < tajne_cislo:
-#         print('Jsi mimo. Tajné číslo je větší.')
-#         zadane_cislo = int(input('Zadej číslo znovu: '))
-
+#         porovnani = 'větší'
+#         print(f'{progres} {porovnani}.')
+#     zadane_cislo = int(input('Zadej číslo znovu: '))
+#     pokus += 1
+#     if pokus == pocet_pokusu:
+#         print(f'Prohrál jsi hru, tajné číslo je {tajne_cislo}.')
+#         zadane_cislo = tajne_cislo
 # print('Hurá trefa!!! ;)')
