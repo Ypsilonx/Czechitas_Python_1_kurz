@@ -101,24 +101,32 @@ import random
 # #     zadane_cislo = int(input("Zadej číslo znovu: "))
 # # print("Hurá trefa!!! ;-)")
 
-dolni_hranice = int(input('Zadej spodní hranici pro hádání: '))
-horni_hranice = int(input('Zadej horní hranici pro hádání: '))
-pocet_pokusu = int(input('Zadej kolik šancí dáš hráči k uhádnutí: '))
-zadane_cislo = int(input('Zkus hádat tajné číslo: '))
-tajne_cislo = random.randint(dolni_hranice,(horni_hranice + 1))
-progres = 'Jsi mimo. Tajné číslo je'
-porovnani = ''
-pokus = 0
-while zadane_cislo != tajne_cislo:
-    pokus += 1
-    if zadane_cislo > tajne_cislo:
-        porovnani = 'menší'
-        print(f'{progres} {porovnani}.')
-    elif zadane_cislo < tajne_cislo:
-        porovnani = 'větší'
-        print(f'{progres} {porovnani}.')
-    zadane_cislo = int(input('Zadej číslo znovu: '))
-    if pokus == pocet_pokusu:
-        print(f'Prohrál jsi hru, tajné číslo je {tajne_cislo}.')
-        zadane_cislo = tajne_cislo
-print('Hurá trefa!!! ;)')
+def hra():
+    dolni_hranice = int(input('Zadej spodní hranici pro hádání: '))
+    horni_hranice = int(input('Zadej horní hranici pro hádání: '))
+    pocet_pokusu = int(input('Zadej kolik šancí dáš hráči k uhádnutí: '))
+    zadane_cislo = int(input('Zkus hádat tajné číslo: '))
+    tajne_cislo = random.randint(dolni_hranice,(horni_hranice + 1))
+    progres = 'Jsi mimo. Tajné číslo je'
+    porovnani = ''
+    pokus = 0
+    while zadane_cislo != tajne_cislo:
+        pokus += 1
+        if zadane_cislo > tajne_cislo:
+            porovnani = 'menší'
+            print(f'{progres} {porovnani}.')
+        elif zadane_cislo < tajne_cislo:
+            porovnani = 'větší'
+            print(f'{progres} {porovnani}.')
+        zadane_cislo = int(input('Zadej číslo znovu: '))
+        if pokus == pocet_pokusu:
+            print(f'Prohrál jsi hru, tajné číslo je {tajne_cislo}.')
+            zadane_cislo = tajne_cislo
+    print('Hurá trefa!!! ;)')
+
+start_hry = input('Chceš si zahrát? Ano/Ne: ')
+if start_hry == 'Ano' or 'A' or 'ANO' or 'Jo' or 'jo':
+    print('Tak se připrav...')    
+    hra()
+else:
+    print('Hra skončila.')
