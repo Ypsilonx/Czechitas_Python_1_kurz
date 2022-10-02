@@ -91,15 +91,16 @@
 
 # cvičení WHILE:
 
-import random
+#import random
 
-# # zadane_cislo = int(input("Zkus trefit tajné číslo: "))
-# # tajne_cislo = random.randint(1,(100 + 1))
-# # print(tajne_cislo)
-# # while zadane_cislo != tajne_cislo:
-# #     print("Aj, vedle zkus to znova.")
-# #     zadane_cislo = int(input("Zadej číslo znovu: "))
-# # print("Hurá trefa!!! ;-)")
+# zadane_cislo = int(input("Zkus trefit tajné číslo: "))
+# tajne_cislo = random.randint(1,(100 + 1))
+# print(tajne_cislo)
+# while zadane_cislo != tajne_cislo:
+#     print("Aj, vedle zkus to znova.")
+#     zadane_cislo = int(input("Zadej číslo znovu: "))
+# print("Hurá trefa!!! ;-)")
+import random
 
 def hra():
     dolni_hranice = int(input('Zadej spodní hranici pro hádání: '))
@@ -124,7 +125,9 @@ def hra():
             porovnani = 'větší'
             print(f'{progres} {porovnani}.')
         zadane_cislo = int(input('Zadej číslo znovu: '))
-    print('Hurá trefa!!! ;)')
+        if zadane_cislo == tajne_cislo:
+            print('Hurá trefa!!! ;)')
+
 
 start_hry = input('Chceš si zahrát? Ano/Ne: ')
 if start_hry in ['Ano', 'A', 'ano', 'Jo', 'jo', 'a']:
