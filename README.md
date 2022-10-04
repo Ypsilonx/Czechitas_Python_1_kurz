@@ -9,3 +9,7 @@
 - Zadán DÚ -> DONE
   - pořádně si projít nějaké úkoly a cvičení a pročíst si co jsme probrali -> možná zkusit procvičit v codewars
 * pro příště -> funkce se slovníky
+## 3. lekce - 4.10.2022 - 
+* opáčko a bonus k podmínkám
+* FUNKCE
+
