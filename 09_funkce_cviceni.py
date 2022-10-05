@@ -101,8 +101,12 @@
 
 # import random
 
+# print('První řada 1, 4, 7 atd., druhá řada 2, 5, 8 atd.,třetí řada 3, 6, 9 atd.')
+# sada = input('Jakou sadu čísel sis vybral? 1/2/3: ')
+# sazka = int(input('Kolik vsadíš na tyto čísla? '))
+
 # def roulette(sada, sazka):
-#     losovane_cislo = random.randint(0, 36+1)
+#     losovane_cislo = random.randint(0, 36)
 #     #losovane_cislo = 5
 #     sada_one = range(1, 37, 3)
 #     sada_two = range(2, 37, 3)
@@ -129,9 +133,6 @@
 #         print(f'Vylosované číslo v ruletě je: {losovane_cislo} a odpovídá č.řadě "{cislo_rady}".')
 #     return ''
 
-# print('První řada 1, 4, 7 atd., druhá řada 2, 5, 8 atd.,třetí řada 3, 6, 9 atd.')
-# sada = input('Jakou sadu čísel sis vybral? 1/2/3: ')
-# sazka = int(input('Kolik vsadíš na tyto čísla? '))
 # print(roulette(sada, sazka))
 
 import random
@@ -145,10 +146,19 @@ def ruleta(cislo_rady, sazka):
         {'rada': 2, 'los_cisla': range(2, 37, 3)},  # 2, 5, 8, ...
         {'rada': 3, 'los_cisla': range(3, 37, 3)},  # 3, 6, 9, ...
     ]
-    hozeno = random.randint(0, 36)
+    #hozeno = random.randint(0, 36)
+    hozeno = 1
     print(f"Hozeno: {hozeno}")
-    # Ukázka jednořádkového zápisu if (elegantní, ale pro přehlednost by se možná vyplatilo rozepsat na víc řádků):
-    return 2 * sazka if hozeno in rady[cislo_rady - 1] else 0  # "- 1" kvůli indexování od nuly
+    
+    rada = []
+    for item in rady:
+        cislo_rady = item['rada']
+        sada = item['los_cisla']
+        rada.append(cislo_rady)
+        if hozeno in rady[cislo_rady-1]:
+            sazka *= 2
+            
+    return sazka
 
 vyhra = ruleta(vybrana_rada, vsazeno)
 print(f"Vyhráváš {vyhra}")
