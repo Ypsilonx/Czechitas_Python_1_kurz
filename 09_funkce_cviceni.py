@@ -25,28 +25,29 @@
 # BONUS cvičení:
 
 # 1.varianta:
-def month_of_birth(rodne_cislo):
-    mesic_narozeni = str(rodne_cislo)
-    mesic = (mesic_narozeni[2: 4])
-    mesic = int(mesic)
-    if mesic >= 50:
-        mesic -= 50
-    return mesic
+# def month_of_birth(rodne_cislo):
+#     mesic_narozeni = str(rodne_cislo)
+#     mesic = (mesic_narozeni[2: 4])
+#     mesic = int(mesic)
+#     if mesic >= 50:
+#         mesic -= 50
+#     return mesic
 
-rodne_cislo = input('Zadej rodne cislo: ')
-print(month_of_birth(rodne_cislo))
+# rodne_cislo = input('Zadej rodne cislo: ')
+# print(month_of_birth(rodne_cislo))
 
-# 2.varianta:
-def month_of_birth(rodne_cislo):
-    mesic = int(rodne_cislo[2: 4])
-    if mesic >= 50:
-        mesic -= 50
-    return mesic
+# # 2.varianta:
+# def month_of_birth(rodne_cislo):
+#     mesic = int(rodne_cislo[2: 4])
+#     if mesic >= 50:
+#         mesic -= 50
+#     return mesic
 
-rodne_cislo = input('Zadej rodne cislo: ')
-print(month_of_birth(rodne_cislo))
+# rodne_cislo = input('Zadej rodne cislo: ')
+# print(month_of_birth(rodne_cislo))
 
 # BONUS cvičení - Ruleta:
+import random
 
 def roulette(sada, sazka):
     losovane_cislo = random.randint(0, 36+1)
