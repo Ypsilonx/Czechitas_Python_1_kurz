@@ -12,4 +12,5 @@
 ## 3. lekce - 4.10.2022 - 
 * opáčko a bonus k podmínkám
 * FUNKCE
+- Zadán DÚ
 
