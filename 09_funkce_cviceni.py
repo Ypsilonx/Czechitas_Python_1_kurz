@@ -141,24 +141,27 @@ vybrana_rada = int(input('Na kterou řadu sázíš? (1-3): '))
 vsazeno = int(input('Kolik sázíš?: '))
 
 def ruleta(cislo_rady, sazka):
-    rady = [
-        {'rada': 1, 'los_cisla': range(1, 37, 3)},  # 1, 4, 7, ...
-        {'rada': 2, 'los_cisla': range(2, 37, 3)},  # 2, 5, 8, ...
-        {'rada': 3, 'los_cisla': range(3, 37, 3)},  # 3, 6, 9, ...
-    ]
     #hozeno = random.randint(0, 36)
     hozeno = 1
     print(f"Hozeno: {hozeno}")
+    if hozeno == 0:
+        print('Nula nevyhrává.')
+        return cislo
     
-    rada = []
-    for item in rady:
-        cislo_rady = item['rada']
-        sada = item['los_cisla']
-        rada.append(cislo_rady)
-        if hozeno in rady[cislo_rady-1]:
-            sazka *= 2
-            
-    return sazka
+    zbytek = hozeno % 3
+    rady = {
+        1: cislo_rady == 1 and zbytek == 1,
+        2: cislo_rady == 2 and zbytek == 2,
+        3: cislo_rady == 3 and zbytek == 0,
+    }
+    
+    print(f'Číslo {hozeno} patří do {3 if zbytek == 0 else zbytek} řady.')
+    
+    if rady.get(cislo_rady, False):
+        print(f'Vyhráváš {sazka * 2}!')
+        return sazka * 2
 
-vyhra = ruleta(vybrana_rada, vsazeno)
-print(f"Vyhráváš {vyhra}")
+    print(f'Nevyhráváš protože sis tipnul {cislo_rady} radu.')
+    return 0
+    
+ruleta(vybrana_rada, vsazeno)
