@@ -18,3 +18,18 @@
 #tel_cislo = "+420 734 123 456"
 #tel_cislo = tel_cislo.replace(" ", "")
 
+tel_cislo = input('Zadej tel. číslo: ')
+
+def cert_number(cislo):
+    delka_cisla = len(cislo)
+    return 'Ano' if (delka_cisla == 9) or (delka_cisla == 13) else 'Ne'
+print(f'Číslo bylo zadáno správně? {cert_number(tel_cislo)}.')
+
+sms_zprava = input('Text zprávy: ')
+
+def cena(zprava):
+    delka_zpravy = len(zprava)
+    cena = int(delka_zpravy / 180) + 1
+    return cena * 3
+
+print(f'Cena zprávy je: {cena(sms_zprava)},- Kč.')
