@@ -503,43 +503,60 @@ staty = [
 
 jaky_region = input('Zadej region: ')
 
-regiony = []
-for item in staty:
-    region = item['region']
-    state = item['name']
-    regiony.append(region)
-    if region == jaky_region:
-        print(f'V regionu {jaky_region} jsou:')
-        print(f'{state}')
-if jaky_region not in regiony:
+all_regions = []
+print(f'V regionu {jaky_region} jsou:')
+for stat in staty:
+    state = stat['name']
+    if stat['region'] == jaky_region:
+        all_regions.append(stat['region'])
+        print(f'- {state}')
+if jaky_region not in all_regions:
     print('Neznámý region.')
+print('Tyto státy jsou bez regionu:')
 for item in staty:
     region = item['region']
     state = item['name']
     if region == '':
-        print(f'{state} stát je bez regionu.')
+        print(f'- {state}')
 
 ## Bonus:
 # Vytvoř program, který se uživatele zeptá na region, který ho zajímá. Následně sestav slovník, který bude obsahovat celkové počty obyvatel pro jednotlivé subregiony v daném regionu. Například pokud uživatel zadá `Europe`, tak by měl být výsledek následující:
 
-jaky_region = input('Zadej region: ')
+# jaky_region = input('Zadej region: ')
 
-celk_populace = {}
-for item in staty:
-    region = item['region']
-    subregion = item['subregion']
-    populace = item['population']
-    if region == jaky_region:
-        if subregion in celk_populace:
-            celk_populace[subregion] += populace
-        else:
-            celk_populace[subregion] = populace
-pocet_regionu = len(celk_populace)
-obyvatele_regionu = sum(celk_populace.values())
+# pop_subregionu = {}
+# for stat in staty:
+#     if stat['region'] == jaky_region:
+#         subregion = stat['subregion']
+#         if subregion not in pop_subregionu:
+#             pop_subregionu[subregion] = 0
+#         pop_subregionu[subregion] += stat['population']
+# pocet_regionu = len(pop_subregionu)
+# obyvatele_regionu = sum(pop_subregionu.values())
 
-print(f'Vybraný region {jaky_region} má {obyvatele_regionu} obyvatel.')
-print(f'Počet subregionů {pocet_regionu}.')
-print(f'Seznam regionů s počty obyvatel jsou:')
-print(celk_populace)
+# print(f'Vybraný region {jaky_region} má {obyvatele_regionu} obyvatel.')
+# print(f'Počet subregionů {pocet_regionu}.')
+# print(f'Seznam regionů s počty obyvatel jsou:')
+# print(pop_subregionu)
 
 #{'Northern Europe': 104628222, 'Southern Europe': 152182570, 'Western Europe': 194539965, 'Eastern Europe': 295337425}
+
+# Od kouče:
+
+# region_zajmu = input("Zadej region zájmu: ")
+# staty_v_regionu_zajmu = []
+# populace_subregionu = {}
+# print(f"Státy v regionu {region_zajmu}")
+# for stat in staty:
+#     if stat["region"] == region_zajmu:
+#         staty_v_regionu_zajmu.append(stat)
+#         print(f" - {stat['name']}")
+#         subregion = stat["subregion"]
+#         if subregion not in populace_subregionu:
+#             populace_subregionu[subregion] = 0
+#         populace_subregionu[subregion] += stat["population"]
+        
+# if populace_subregionu:
+#     print(populace_subregionu)
+# else:
+#     print("Neznámý region")
