@@ -1,6 +1,6 @@
 # 1. cvičení:
 
-# def mult(a, b):
+# def mult(a, b): # funkce zapisuji na začátku malým písmenkem
 #     vysledek = a * b
 #     return vysledek
 
