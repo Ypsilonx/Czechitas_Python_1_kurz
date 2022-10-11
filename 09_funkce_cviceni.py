@@ -141,8 +141,8 @@ vybrana_rada = int(input('Na kterou řadu sázíš? (1-3): '))
 vsazeno = int(input('Kolik sázíš?: '))
 
 def ruleta(cislo_rady, sazka):
-    #hozeno = random.randint(0, 36)
-    hozeno = 1
+    hozeno = random.randint(0, 36)
+    # hozeno = 1
     print(f"Hozeno: {hozeno}")
     if hozeno == 0:
         print('Nula nevyhrává.')
