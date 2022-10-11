@@ -24,7 +24,7 @@ def ruleta(cislo_rady, sazka):
     print(f'Nevyhráváš protože sis tipnul {cislo_rady} radu.')
     return 0
 
-def srajtofla_start(bank, min_zustatek=0):
+def srajtofla_start(bank, min_zustatek):
     if (bank - min_zustatek) <= 0:
         print('Našetři si a pak se vrať.')
         exit()
@@ -44,16 +44,17 @@ print('Vítám tě ve hře "Ruleta".')
 penezenka = int(input('Kolik máš celkem peněz v banku: '))
 limitbanku = int(input('Kolik peněz nechceš prohrát: '))
 
-bank1 = srajtofla_start(penezenka, limitbanku)
-
-vybrana_rada = int(input('Na kterou řadu sázíš? (1-3): '))
-vsazeno = int(input('Kolik sázíš?: '))
-if vsazeno > (penezenka - limitbanku):
-    print(f'Chceš vsadit o {vsazeno - (penezenka - limitbanku)},- Kč víc než si plánoval.')
-    limitbanku = int(input('Změň limit banku: '))
+while penezenka > 0:
     bank1 = srajtofla_start(penezenka, limitbanku)
-vyhra = ruleta(vybrana_rada, vsazeno)
-bank2 = srajtofla_konec(penezenka, vsazeno, vyhra)
+
+    vybrana_rada = int(input('Na kterou řadu sázíš? (1-3): '))
+    vsazeno = int(input('Kolik sázíš?: '))
+    if vsazeno > (penezenka - limitbanku):
+        print(f'Chceš vsadit o {vsazeno - (penezenka - limitbanku)},- Kč víc než si plánoval.')
+        vsazeno = int(input(f'Změň svou sázku banku, tvůj limit je {limitbanku}: '))
+    vyhra = ruleta(vybrana_rada, vsazeno)
+    bank2 = srajtofla_konec(penezenka, vsazeno, vyhra)
+    penezenka = bank2
 
 
 
