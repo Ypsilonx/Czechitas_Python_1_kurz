@@ -146,7 +146,7 @@ def ruleta(cislo_rady, sazka):
     print(f"Hozeno: {hozeno}")
     if hozeno == 0:
         print('Nula nevyhrává.')
-        return cislo
+        return hozeno
     
     zbytek = hozeno % 3
     rady = {
