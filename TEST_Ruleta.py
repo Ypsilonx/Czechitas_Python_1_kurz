@@ -46,7 +46,6 @@ limitbanku = int(input('Kolik peněz nechceš prohrát: '))
 
 while penezenka > 0:
     bank1 = srajtofla_start(penezenka, limitbanku)
-
     vybrana_rada = int(input('Na kterou řadu sázíš? (1-3): '))
     vsazeno = int(input('Kolik sázíš?: '))
     if vsazeno > (penezenka - limitbanku):
