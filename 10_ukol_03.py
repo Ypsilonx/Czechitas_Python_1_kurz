@@ -15,13 +15,20 @@
 #Nápověda
 #Pokud chcete zkontrolovat předvolbu, stačí využít podmínku+420 in cislo, alternativně můžete využít indexy: Python umožňuje kromě jednoho znaku z řetězce získat i více znaků, a to pomocí dvojtečky. Pokud budete chtít získat první čtyři znaky, napište cislo[0:4]. Pak můžete vytvořit podmínku cislo[0:4] == "+420".
 
-#Bonus:
-#Zkus svoji první funkci vytunit tak, že si bude umět poradit s mezerami v telefonním čísle. Mezer se zbavíš tak, že použiješ replace() a tečkovou notaci. První parametr je znak, který chceš nahradit, a druhý parametr nový znak. Níže je příklad použití.
+# Bonus:
+# Zkus svoji první funkci vytunit tak, že si bude umět poradit s mezerami v telefonním čísle. 
+# Mezer se zbavíš tak, že použiješ replace() a tečkovou notaci. 
+# První parametr je znak, který chceš nahradit, a druhý parametr nový znak. 
+# Níže je příklad použití.
 
 #tel_cislo = "+420 734 123 456"
 #tel_cislo = tel_cislo.replace(" ", "")
 
 tel_cislo = input('Zadej tel. číslo: ')
+
+for i in tel_cislo:
+    if i == ' ':
+        tel_cislo = tel_cislo.replace(' ', '')
 
 def cert_number(cislo):
     delka_cisla = len(cislo)
