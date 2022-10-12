@@ -25,30 +25,30 @@
 
 # 2. úkol:
 
-# class Kniha:
-#     def __init__(self, nazev, pocet_stran, cena):
-#         self.nazev = nazev
-#         self.pocet_stran = pocet_stran
-#         self.cena = cena
+class Kniha:
+    def __init__(self, nazev, pocet_stran, cena):
+        self.nazev = nazev
+        self.pocet_stran = pocet_stran
+        self.cena = cena
         
-#     def __str__(self):
-#         # if :
-#         #     slevicka = f'a po slevě má cenu {self.cena},- Kč'
-#         # else:
-#         #     slevicka = f'má cenu {self.cena},- Kč'
-#         # return f'Kniha {self.nazev} s počtem stran {self.pocet_stran} {slevicka}.'
-#         return f'Kniha {self.nazev} s počtem stran {self.pocet_stran} a má cenu {self.cena},- Kč.'
+    def __str__(self):
+        # if :
+        #     slevicka = f'a po slevě má cenu {self.cena},- Kč'
+        # else:
+        #     slevicka = f'má cenu {self.cena},- Kč'
+        # return f'Kniha {self.nazev} s počtem stran {self.pocet_stran} {slevicka}.'
+        return f'Kniha {self.nazev} s počtem stran {self.pocet_stran} a má cenu {self.cena},- Kč.'
         
-#     def sleva(self, velikost_slevy=0):
-#         self.cena = int(self.cena - (self.cena*(velikost_slevy/100)))
+    def sleva(self, velikost_slevy=0):
+        self.cena *= 1 - (velikost_slevy/100)
 
-# kniha1 = Kniha('Stopař', 120, 390)
-# kniha2 = Kniha('Dukla', 50, 150)
+kniha1 = Kniha('Stopař', 120, 390)
+kniha2 = Kniha('Dukla', 50, 150)
 
-# print(kniha1)
-# kniha1.sleva(20)
-# print(kniha1)
-# print(kniha2)
+print(kniha1)
+kniha1.sleva(20)
+print(kniha1)
+print(kniha2)
 
 # 3. úkol:
 
