@@ -48,6 +48,8 @@
 
 # Tohle je podle mě elegantní verze:
 
+from math import*
+
 def cert_number(cislo):
     cislo_bez_mezer = cislo.replace(' ', '')
     delka_cisla = len(cislo_bez_mezer)
@@ -55,9 +57,9 @@ def cert_number(cislo):
     
 def cena(zprava):
     delka_zpravy = len(zprava)
-    cena = (delka_zpravy / 180)
-    return round(cena) * 3
-    
+    cena_sms = ceil(delka_zpravy / 180)
+    return (cena_sms)*3
+
 tel_cislo = cert_number(input('Zadej tel. číslo: '))
 if tel_cislo:
     sms_zprava = input('Text zprávy: ')
