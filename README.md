@@ -12,7 +12,7 @@
 ## 3. lekce - 4.10.2022 - DONE
 * opáčko a bonus k podmínkám
 * FUNKCE
-- Zadán DÚ
+- Zadán DÚ -> DONE
 ## 4. lekce - 11.10.2022 - 
 * opáčko 
 * TŘÍDY
