@@ -48,7 +48,7 @@
 
 # Tohle je podle mě elegantní verze:
 
-from math import*
+import math
 
 def cert_number(cislo):
     cislo_bez_mezer = cislo.replace(' ', '')
@@ -57,7 +57,7 @@ def cert_number(cislo):
     
 def cena(zprava):
     delka_zpravy = len(zprava)
-    cena_sms = ceil(delka_zpravy / 180)
+    cena_sms = math.ceil(delka_zpravy / 180)
     return (cena_sms)*3
 
 tel_cislo = cert_number(input('Zadej tel. číslo: '))
