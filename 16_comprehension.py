@@ -51,3 +51,20 @@ teploty = [
     [0.4, 2.7, 1.3, -2.8]
 ]
 
+soucty = [round((sum(teplota))/len(teplota), 1) for teplota in teploty]
+#print(soucty)
+
+ranni_teploty = [teplota[0] for teplota in teploty]
+#print(ranni_teploty)
+
+nocni_teploty = [teplota[3] for teplota in teploty]
+#print(nocni_teploty)
+
+dvojte_teploty1 = [(teplota[1], teplota[3]) for teplota in teploty] #datový typ touple v seznamu
+dvojte_teploty2 = [[teplota[1], teplota[3]] for teplota in teploty]
+#print(type(dvojte_teploty[0]))
+#print(dvojte_teploty2)
+
+prumer = [round((sum(teplota))/len(teplota), 1) for teplota in teploty]
+prumer = sum(prumer)/len(prumer)
+#print(prumer)
