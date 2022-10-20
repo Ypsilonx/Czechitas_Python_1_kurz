@@ -23,7 +23,7 @@ class Kucharka:
         self.recepty = []
     
     def __str__(self):
-        return f'{self.nazev} od {self.autor} - {len(self.recepty)} receptů'
+        return f'{self.nazev} od {self.autor} - {len(self.recepty)} receptů -> seznam: {self.recepty}'
     
     def pocet_receptu(self):
         return len(self.recepty)
