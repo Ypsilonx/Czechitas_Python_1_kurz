@@ -12,20 +12,18 @@ class Recept:
             zkouska = 'nevyzkoušeno'
         return f'{self.nazev} (náročnost: {self.narocnost}), najdu: {self.url_adresa} - {zkouska}'
     
-    # def __repr__(self):
-    #     if self.vyzkouseno:
-    #         zkouska = 'vyzkoušeno'
-    #     else:
-    #         zkouska = 'nevyzkoušeno'
-    #     return f'{self.nazev} (náročnost: {self.narocnost}), najdu: {self.url_adresa} - {zkouska}'
+    def __repr__(self): # přidáno REPR (kopie STR)
+        if self.vyzkouseno:
+            zkouska = 'vyzkoušeno'
+        else:
+            zkouska = 'nevyzkoušeno'
+        return f'{self.nazev} (náročnost: {self.narocnost}), najdu: {self.url_adresa} - {zkouska}'
 
     def zmen_narocnost(self, nova_hodnota: int):
         self.narocnost = nova_hodnota
-        return self.narocnost
-
+    
     def zkusit(self):
         self.vyzkouseno = True
-        return self.vyzkouseno
 
 class Kucharka:
     def __init__(self, nazev: str, autor: str):
@@ -34,27 +32,37 @@ class Kucharka:
         self.recepty = []
     
     def __str__(self):
+        # if len(self.recepty) > 0:
+        #     pocet_recept = f'{Kucharka.pocet_receptu(self)} recep. - seznam:'
+        # else:
+        #     pocet_recept = 'neobsahuje recepty'
+        # vypis = f'{self.nazev} od {self.autor} - {pocet_recept}'
+        # print(vypis)
+        # seznam = [[recept.nazev, recept.narocnost, recept.url_adresa] for recept in self.recepty]
+        # for recep in seznam:
+        #     seznam_recep = f'Recept: {recep[0]} /náročnost: {recep[1]} /adresa: {recep[2]}'
+        #     print(seznam_recep)
+        # return ''
         if len(self.recepty) > 0:
             pocet_recept = f'{Kucharka.pocet_receptu(self)} recep. - seznam:'
         else:
             pocet_recept = 'neobsahuje recepty'
-        vypis = f'{self.nazev} od {self.autor} - {pocet_recept}'
-        print(vypis)
-        seznam = [[recept.nazev, recept.narocnost, recept.url_adresa] for recept in self.recepty]
-        for recep in seznam:
-            seznam_recep = f'Recept: {recep[0]} /náročnost: {recep[1]} /adresa: {recep[2]}'
-            print(seznam_recep)
-        return ''
+        vypis = f'{self.nazev} od {self.autor} - {pocet_recept}\n'
+        for recept in self.recepty:
+            vypis += recept.__str__()+"\n"
+        return vypis
     
     def pocet_receptu(self):
         return len(self.recepty)
         
     def pridej_recept(self, recept):
-        return self.recepty.append(recept)
+        self.recepty.append(recept)
     
     def vyzkousene_recepty(self):
-        return [zkouska.nazev for zkouska in self.recepty if zkouska.vyzkouseno]
+        # odmazal jsem jenom .nazev a vypíše se vše co je v REPR
+        return [zkouska for zkouska in self.recepty if zkouska.vyzkouseno]
 
+#_____________________________________________________
         
 muj_recept1 = Recept('Babovka', 1, 'babovky.cz')
 muj_recept2 = Recept('Štrůdl', 2, 'strudly.eu')
