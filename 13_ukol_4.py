@@ -12,12 +12,8 @@ class Recept:
             zkouska = 'nevyzkoušeno'
         return f'{self.nazev} (náročnost: {self.narocnost}), najdu: {self.url_adresa} - {zkouska}'
     
-    def __repr__(self): # přidáno REPR (kopie STR)
-        if self.vyzkouseno:
-            zkouska = 'vyzkoušeno'
-        else:
-            zkouska = 'nevyzkoušeno'
-        return f'{self.nazev} (náročnost: {self.narocnost}), najdu: {self.url_adresa} - {zkouska}'
+    def __repr__(self): # můžeme si zavolat str pro REPR - abychom nekopírovali kód
+        return self.__str__()
 
     def zmen_narocnost(self, nova_hodnota: int):
         self.narocnost = nova_hodnota
