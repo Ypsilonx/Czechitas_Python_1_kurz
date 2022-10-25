@@ -22,6 +22,6 @@
 * Dědičnost, COMPREHENSIONs
 - Zadán DÚ -> [ukol-05](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-05.md)
 ## 6. lekce - 25.10.2022 - 
-* 
+* práce se soubory - open a close
 * 
 - Zadán DÚ -> [ukol-6](---)
