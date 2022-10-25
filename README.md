@@ -17,7 +17,11 @@
 * opáčko 
 * TŘÍDY
 - Zadán DÚ -> [ukol-04](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-04.md)
-## 5. lekce - 18.10.2022 - 
+## 5. lekce - 18.10.2022 - DONE
 * kahoot - pohořel a nechal se nachytat
 * Dědičnost, COMPREHENSIONs
 - Zadán DÚ -> [ukol-05](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-05.md)
+## 6. lekce - 25.10.2022 - 
+* 
+* 
+- Zadán DÚ -> [ukol-6](---)
