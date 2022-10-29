@@ -53,9 +53,6 @@ print(corona) # 'Jmeno: Coronavirus (varianty: omikron, delta, alpha)'
 
 # 2. úkol - comprehensions:
 
-from sre_parse import State
-
-
 staty = [
     {'name': 'Afghanistan', 'capital': 'Kabul', 'region': 'Asia', 'subregion': 'Southern Asia', 'population': 27657145,
      'area': 652230.0, 'gini': 27.8},
