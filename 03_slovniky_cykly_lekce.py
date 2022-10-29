@@ -25,20 +25,20 @@
 
 # 2. část
 
-# books = [
-#     {"title": "Zkus mě chytit", "sold": 4165, "price": 347, "year": 2018},
-#     {"title": "Vrah zavolá v deset", "sold": 5681, "price": 299, "year": 2019},
-#     {"title": "Zločinný steh", "sold": 2565, "price": 369, "year": 2019},
-#     {"title": "Bidnici", "sold": 3549, "price": 669, "year": 2018},
-#     {"title": "Šoupátka", "sold": 6843, "price": 429, "year": 2020},
-# ]
+books = [
+    {"title": "Zkus mě chytit", "sold": 4165, "price": 347, "year": 2018},
+    {"title": "Vrah zavolá v deset", "sold": 5681, "price": 299, "year": 2019},
+    {"title": "Zločinný steh", "sold": 2565, "price": 369, "year": 2019},
+    {"title": "Bidnici", "sold": 3549, "price": 669, "year": 2018},
+    {"title": "Šoupátka", "sold": 6843, "price": 429, "year": 2020},
+]
 
-#-- POZOR! - slovníky vložené do seznamu
+# -- POZOR! - slovníky vložené do seznamu
 
-# sales = 0
-# for item in books:
-#     sales += item['sold']
-# print(f'Celkem bylo prodáno {sales} knih.')
+sales = 0
+for item in books:
+    sales += item['sold']
+print(f'Celkem bylo prodáno {sales} knih.')
 
 # timeYear = int(input('Zadej jaký rok byly knihy vydány: '))
 
