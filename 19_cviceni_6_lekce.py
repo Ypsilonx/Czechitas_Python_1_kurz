@@ -1,6 +1,6 @@
 # 1. úkol:
 
-# with open('vykaz.txt', encoding='utf-8') as vykaz:
+# with open('soubory_k_praci/vykaz.txt', encoding='utf-8') as vykaz:
 #     hodiny = vykaz.readlines()
 
 # hodiny = [int(hodina.strip()) for hodina in hodiny]
@@ -14,7 +14,7 @@
 
 # 2. úkol:
 
-# with open('praha.txt', encoding='utf-8') as slohovka:
+# with open('soubory_k_praci/praha.txt', encoding='utf-8') as slohovka:
 #     radky = slohovka.readlines()
 
 # # print(radky)
@@ -28,7 +28,7 @@
 # print(celkem)
 
 # 3. úkol:
-with open('vykaz.txt', 'r', encoding='utf-8') as vykaz:
+with open('soubory_k_praci/vykaz.txt', 'r', encoding='utf-8') as vykaz:
     hodiny = vykaz.readlines()
 
 hodinovka = input('Zadej kolik máš hodinovou mzdu: ')
@@ -39,7 +39,7 @@ print(prum_mzda) # b)
 
 mzda_zapis = [str(vyplata) + '\n' for vyplata in mzda]
 
-with open('vykaz1.txt', mode='w', encoding='utf-8') as vyplaty:
+with open('soubory_k_praci/vykaz1.txt', mode='w', encoding='utf-8') as vyplaty:
     ohodnoceni = [(hodina + 'h - ') for hodina in hodiny]
     ohodnoceni2 = [(mzda_zapisy + ',-Kč') for mzda_zapisy in mzda_zapis]
     hodnota = ohodnoceni + ohodnoceni2
