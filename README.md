@@ -24,5 +24,9 @@
 __DONE__
 ## 6. lekce - 25.10.2022 - 
 * práce se soubory - open a close
-* 
-- Zadán DÚ -> [ukol-6](---)
+* změny
+- Zadán DÚ -> [ukol-6](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-06.md)
+## 7. lekce - 01.11.2022 - 
+* představení a instalace Jupyter - práce s notebooky
+* práce s daty a časy
+- Zadán DÚ -> [ukol-7](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-07.md)
