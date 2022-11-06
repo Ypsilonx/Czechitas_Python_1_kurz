@@ -37,11 +37,11 @@ print(mzda) # b)
 prum_mzda = int(sum(mzda)/len(mzda))
 print(prum_mzda) # b)
 
-mzda_zapis = [str(vyplata) + '\n' for vyplata in mzda]
+mzda_zapis = [str(vyplata) for vyplata in mzda]
 
 with open('soubory_k_praci/vykaz1.txt', mode='w', encoding='utf-8') as vyplaty:
-    ohodnoceni = [(hodina + 'h - ') for hodina in hodiny]
-    ohodnoceni2 = [(mzda_zapisy + ',-Kč') for mzda_zapisy in mzda_zapis]
+    ohodnoceni = [('h - ' + hodina) for hodina in hodiny]
+    ohodnoceni2 = [('\n' + mzda_zapisy + ',-Kč') for mzda_zapisy in mzda_zapis]
     hodnota = ohodnoceni + ohodnoceni2
     vyplaty.writelines(hodnota)
         
