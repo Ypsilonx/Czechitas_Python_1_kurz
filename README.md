@@ -22,11 +22,15 @@
 * Dědičnost, COMPREHENSIONs
 - Zadán DÚ -> [ukol-05](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-05.md)
 __DONE__
-## 6. lekce - 25.10.2022 - 
+## 6. lekce - 25.10.2022 - DONE
 * práce se soubory - open a close
 * změny
 - Zadán DÚ -> [ukol-6](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-06.md)
-## 7. lekce - 01.11.2022 - 
+## 7. lekce - 01.11.2022 - DONE
 * představení a instalace Jupyter - práce s notebooky
 * práce s daty a časy
 - Zadán DÚ -> [ukol-7](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-07.md)
+## 8. lekce - 08.11.2022 - 
+* pandas a práce s daty
+* 
+- Zadán DÚ -> [ukol-8](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-08.md)
