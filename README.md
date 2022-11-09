@@ -16,16 +16,15 @@
 ## 4. lekce - 11.10.2022 - DONE
 * opáčko 
 * TŘÍDY
-- Zadán DÚ -> [ukol-04](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-04.md)
+- Zadán DÚ -> [ukol-04](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-04.md) __DONE__
 ## 5. lekce - 18.10.2022 - DONE
 * kahoot - pohořel a nechal se nachytat
 * Dědičnost, COMPREHENSIONs
-- Zadán DÚ -> [ukol-05](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-05.md)
-__DONE__
+- Zadán DÚ -> [ukol-05](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-05.md) __DONE__
 ## 6. lekce - 25.10.2022 - DONE
 * práce se soubory - open a close
 * změny
-- Zadán DÚ -> [ukol-6](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-06.md)
+- Zadán DÚ -> [ukol-6](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-06.md) __DONE__
 ## 7. lekce - 01.11.2022 - DONE
 * představení a instalace Jupyter - práce s notebooky
 * práce s daty a časy
