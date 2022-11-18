@@ -33,6 +33,6 @@
 * pandas základy + dataframe
 * získávání info a načítaní dat
 - Zadán DÚ -> [ukol-8](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-08.md)
-## 9. lekce - 15.11.2022 - 
+## 9. lekce - 15.11.2022 - DONE
 * indexace, procvičování pandas
 - Zadán DÚ -> [ukol-9](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-09.md)
