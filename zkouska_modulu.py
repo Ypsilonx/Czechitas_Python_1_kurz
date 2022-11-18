@@ -28,3 +28,5 @@ try:
     print("Seaborn je instalován.")
 except ModuleNotFoundError:
     print("Seaborn se nepovedlo nainstalovat.")
+    
+    ofdgisznogb sdifug hp
