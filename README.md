@@ -28,11 +28,11 @@
 ## 7. lekce - 01.11.2022 - DONE
 * představení a instalace Jupyter - práce s notebooky
 * práce s daty a časy
-- Zadán DÚ -> [ukol-7](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-07.md)
+- Zadán DÚ -> [ukol-7](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-07.md) __DONE__
 ## 8. lekce - 08.11.2022 - DONE
 * pandas základy + dataframe
 * získávání info a načítaní dat
-- Zadán DÚ -> [ukol-8](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-08.md)
+- Zadán DÚ -> [ukol-8](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-08.md) __DONE__
 ## 9. lekce - 15.11.2022 - DONE
 * indexace, procvičování pandas
 - Zadán DÚ -> [ukol-9](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-09.md)
