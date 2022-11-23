@@ -28,3 +28,9 @@ try:
     print("Seaborn je instalován.")
 except ModuleNotFoundError:
     print("Seaborn se nepovedlo nainstalovat.")
+
+try:
+    import pytemperature
+    print("Pytemperature je instalován.")
+except ModuleNotFoundError:
+    print("Pytemperature se nepovedlo nainstalovat.")
