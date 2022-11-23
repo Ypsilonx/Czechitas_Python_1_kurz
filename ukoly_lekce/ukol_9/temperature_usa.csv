@@ -1,0 +1,154 @@
+,Region,Country,City,Day,AvgTemperature,AvgTemperatureCelsia
+4212,North America,US,Birmingham,13,54.8,12.67
+4242,North America,US,Huntsville,13,52.5,11.39
+4272,North America,US,Mobile,13,61.6,16.44
+4302,North America,US,Montgomery,13,55.1,12.83
+4332,North America,US,Anchorage,13,16.2,-8.78
+4362,North America,US,Fairbanks,13,25.0,-3.89
+4392,North America,US,Juneau,13,26.7,-2.94
+4422,North America,US,Phoenix,13,74.2,23.44
+4452,North America,US,Tucson,13,69.8,21.0
+4482,North America,US,Fort Smith,13,53.0,11.67
+4512,North America,US,Little Rock,13,53.1,11.72
+4542,North America,US,Fresno,13,55.4,13.0
+4572,North America,US,Los Angeles,13,61.7,16.5
+4602,North America,US,Sacramento,13,56.0,13.33
+4632,North America,US,San Diego,13,63.7,17.61
+4662,North America,US,San Francisco,13,59.7,15.39
+4692,North America,US,Colorado Springs,13,49.8,9.89
+4722,North America,US,Denver,13,50.3,10.17
+4752,North America,US,Grand Junction,13,47.5,8.61
+4782,North America,US,Pueblo,13,47.6,8.67
+4812,North America,US,Bridgeport,13,40.7,4.83
+4842,North America,US,Hartford Springfield,13,34.5,1.39
+4872,North America,US,Washington,13,45.2,7.33
+4902,North America,US,Washington,13,45.2,7.33
+4932,North America,US,Washington DC,13,45.2,7.33
+4962,North America,US,Washington DC,13,45.2,7.33
+4992,North America,US,Jacksonville,13,66.3,19.06
+5022,North America,US,Miami Beach,13,79.2,26.22
+5052,North America,US,Orlando,13,72.8,22.67
+5082,North America,US,Tallahassee,13,64.7,18.17
+5112,North America,US,Tampa St. Petersburg,13,76.5,24.72
+5142,North America,US,West Palm Beach,13,76.5,24.72
+5172,North America,US,Atlanta,13,52.2,11.22
+5202,North America,US,Columbus,13,57.1,13.94
+5232,North America,US,Macon,13,53.6,12.0
+5262,North America,US,Savannah,13,60.3,15.72
+5292,North America,US,Honolulu,13,78.5,25.83
+5322,North America,US,Boise,13,47.1,8.39
+5352,North America,US,Pocatello,13,39.9,4.39
+5382,North America,US,Chicago,13,36.4,2.44
+5412,North America,US,Peoria,13,38.6,3.67
+5442,North America,US,Rockford,13,32.7,0.39
+5472,North America,US,Springfield,13,41.6,5.33
+5502,North America,US,Evansville,13,44.4,6.89
+5532,North America,US,Fort Wayne,13,38.4,3.56
+5562,North America,US,Indianapolis,13,39.6,4.22
+5592,North America,US,South Bend,13,38.0,3.33
+5622,North America,US,Des Moines,13,35.1,1.72
+5652,North America,US,Sioux City,13,32.4,0.22
+5682,North America,US,Goodland,13,43.5,6.39
+5712,North America,US,Topeka,13,42.1,5.61
+5742,North America,US,Wichita,13,47.5,8.61
+5772,North America,US,Lexington,13,44.0,6.67
+5802,North America,US,Louisville,13,45.3,7.39
+5832,North America,US,Paducah,13,46.8,8.22
+5862,North America,US,Lake Charles,13,67.1,19.5
+5892,North America,US,New Orleans,13,66.1,18.94
+5922,North America,US,Shreveport,13,61.1,16.17
+5952,North America,US,Caribou,13,24.8,-4.0
+5982,North America,US,Portland,13,29.4,-1.44
+6012,North America,US,Baltimore,13,41.9,5.5
+6042,North America,US,Boston,13,39.6,4.22
+6072,North America,US,Detroit,13,38.5,3.61
+6102,North America,US,Flint,13,36.6,2.56
+6132,North America,US,Grand Rapids,13,38.1,3.39
+6162,North America,US,Lansing,13,36.8,2.67
+6192,North America,US,Sault Ste Marie,13,34.5,1.39
+6222,North America,US,Duluth,13,25.5,-3.61
+6252,North America,US,Minneapolis St. Paul,13,33.2,0.67
+6282,North America,US,Jackson,13,63.7,17.61
+6312,North America,US,Tupelo,13,51.8,11.0
+6342,North America,US,Kansas City,13,42.9,6.06
+6372,North America,US,Springfield,13,47.6,8.67
+6402,North America,US,St Louis,13,43.8,6.56
+6432,North America,US,Billings,13,38.1,3.39
+6462,North America,US,Great Falls,13,41.8,5.44
+6492,North America,US,Helena,13,29.0,-1.67
+6522,North America,US,Lincoln,13,35.7,2.06
+6552,North America,US,North Platte,13,43.7,6.5
+6582,North America,US,Omaha,13,36.7,2.61
+6612,North America,US,Reno,13,48.4,9.11
+6642,North America,US,Las Vegas,13,59.2,15.11
+6672,North America,US,Concord,13,28.9,-1.72
+6702,North America,US,Atlantic City,13,41.2,5.11
+6732,North America,US,Newark,13,42.3,5.72
+6762,North America,US,Albuquerque,13,56.6,13.67
+6792,North America,US,Albany,13,35.3,1.83
+6822,North America,US,Buffalo,13,36.8,2.67
+6852,North America,US,New York City,13,45.4,7.44
+6882,North America,US,Rochester,13,38.7,3.72
+6912,North America,US,Syracuse,13,35.8,2.11
+6942,North America,US,Asheville,13,48.7,9.28
+6972,North America,US,Charlotte,13,48.6,9.22
+7002,North America,US,Greensboro,13,47.7,8.72
+7032,North America,US,Raleigh Durham,13,47.8,8.78
+7062,North America,US,Bismarck,13,36.0,2.22
+7092,North America,US,Fargo,13,34.9,1.61
+7122,North America,US,Akron Canton,13,39.2,4.0
+7152,North America,US,Cincinnati,13,41.8,5.44
+7182,North America,US,Cleveland,13,42.0,5.56
+7212,North America,US,Columbus,13,41.4,5.22
+7242,North America,US,Dayton,13,38.5,3.61
+7272,North America,US,Toledo,13,38.7,3.72
+7302,North America,US,Youngstown,13,37.4,3.0
+7332,North America,US,Oklahoma City,13,51.4,10.78
+7362,North America,US,Tulsa,13,51.7,10.94
+7392,North America,US,Eugene,13,50.9,10.5
+7422,North America,US,Medford,13,53.2,11.78
+7452,North America,US,Portland,13,50.8,10.44
+7482,North America,US,Salem,13,52.3,11.28
+7512,North America,US,Allentown,13,39.5,4.17
+7542,North America,US,Erie,13,38.8,3.78
+7572,North America,US,Philadelphia,13,41.7,5.39
+7602,North America,US,Pittsburgh,13,40.2,4.56
+7632,North America,US,Wilkes Barre,13,38.1,3.39
+7662,North America,US,Rhode Island,13,37.3,2.94
+7692,North America,US,Charleston,13,57.2,14.0
+7722,North America,US,Columbia,13,52.8,11.56
+7752,North America,US,Rapid City,13,41.8,5.44
+7782,North America,US,Sioux Falls,13,37.3,2.94
+7812,North America,US,Chattanooga,13,53.5,11.94
+7842,North America,US,Knoxville,13,50.6,10.33
+7872,North America,US,Memphis,13,52.6,11.44
+7902,North America,US,Nashville,13,49.0,9.44
+7932,North America,US,Abilene,13,54.9,12.72
+7962,North America,US,Amarillo,13,50.4,10.22
+7992,North America,US,Austin,13,69.8,21.0
+8022,North America,US,Brownsville,13,75.6,24.22
+8052,North America,US,Corpus Christi,13,72.8,22.67
+8082,North America,US,Dallas Ft Worth,13,62.0,16.67
+8112,North America,US,El Paso,13,60.2,15.67
+8142,North America,US,Houston,13,68.5,20.28
+8172,North America,US,Lubbock,13,50.7,10.39
+8202,North America,US,Midland Odessa,13,55.2,12.89
+8232,North America,US,San Angelo,13,58.2,14.56
+8262,North America,US,San Antonio,13,70.6,21.44
+8292,North America,US,Waco,13,64.5,18.06
+8322,North America,US,Wichita Falls,13,54.7,12.61
+8352,North America,US,Salt Lake City,13,43.5,6.39
+8382,North America,US,Burlington,13,31.9,-0.06
+8412,North America,US,Norfolk,13,50.8,10.44
+8442,North America,US,Richmond,13,43.4,6.33
+8472,North America,US,Roanoke,13,44.5,6.94
+8502,North America,US,Seattle,13,50.4,10.22
+8532,North America,US,Spokane,13,40.4,4.67
+8562,North America,US,Yakima,13,47.1,8.39
+8592,North America,US,Charleston,13,46.2,7.89
+8622,North America,US,Elkins,13,42.9,6.06
+8652,North America,US,Green Bay,13,32.6,0.33
+8682,North America,US,Madison,13,30.0,-1.11
+8712,North America,US,Milwaukee,13,36.8,2.67
+8742,North America,US,Casper,13,48.1,8.94
+8772,North America,US,Cheyenne,13,45.7,7.61
