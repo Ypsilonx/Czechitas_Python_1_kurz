@@ -35,7 +35,10 @@
 - Zadán DÚ -> [ukol-8](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-08.md) __DONE__
 ## 9. lekce - 15.11.2022 - DONE
 * indexace, procvičování pandas
-- Zadán DÚ -> [ukol-9](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-09.md)
+- Zadán DÚ -> [ukol-9](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-09.md) __DONE__
 ## 10. lekce - 22.11.2022 - DONE
 * agregace a spojování
 - Zadán DÚ -> [ukol-10](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-10.md)
+## 11. lekce - 22.11.2022 - 
+* 
+- Zadán DÚ -> [ukol-11](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-11.md)
