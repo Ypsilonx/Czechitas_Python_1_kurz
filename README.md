@@ -40,5 +40,5 @@
 * agregace a spojování
 - Zadán DÚ -> [ukol-10](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-10.md)
 ## 11. lekce - 22.11.2022 - 
-* 
+* regulární výrazy
 - Zadán DÚ -> [ukol-11](https://github.com/andywaltlova/python-1-podzim-2022/blob/master/ukoly/ukol-11.md)
