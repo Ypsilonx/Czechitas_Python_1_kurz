@@ -34,3 +34,9 @@ try:
     print("Pytemperature je instalován.")
 except ModuleNotFoundError:
     print("Pytemperature se nepovedlo nainstalovat.")
+    
+try:
+    import django
+    print("Django je instalován.")
+except ModuleNotFoundError:
+    print("Django se nepovedlo nainstalovat.")
