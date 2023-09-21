@@ -3,28 +3,28 @@ import pandas
 
 # cvičení 1
 
-kostky = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/vizualizace/excs/excs>hazeni-kostkami/kostky.csv")
+#kostky = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/vizualizace/excs/excs>hazeni-kostkami/kostky.csv")
 #print(kostky)
-hody_ = kostky.groupby('hodnota')['hodnota'].count()
+#hody_ = kostky.groupby('hodnota')['hodnota'].count()
 #print(hody_)
 #kostky.hist(bins = range(2, 14)) # nebo bins = [0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5]
-kostky.hist(bins = [1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5], color='red', density = True)
-plt.title('Hody dvěma kostkami')
-plt.xlabel('Hodnoty')
-plt.ylabel('Počet hodů')
-plt.show()
+#kostky.hist(bins = [1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5], color='red', density = True)
+# plt.title('Hody dvěma kostkami')
+# plt.xlabel('Hodnoty')
+# plt.ylabel('Počet hodů')
+# plt.show()
 
 # cvičení 2
 
-callcentrum = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/vizualizace/excs/excs>call-centrum/callcentrum.csv")
-callcentrum = callcentrum["hodnota"].str.split(':', expand=True).astype(int)
+# callcentrum = pandas.read_csv("https://kodim.cz/cms/assets/kurzy/python-data-1/python-pro-data-1/vizualizace/excs/excs>call-centrum/callcentrum.csv")
+# callcentrum = callcentrum["hodnota"].str.split(':', expand=True).astype(int)
 
-callcentrum['cas'] = callcentrum[0] * 60 + callcentrum[1]
-#print(callcentrum['cas'])
-callcentrum['cas'].hist(width = 150, color = "orange")
-plt.show()
-callcentrum['cas'].plot(kind = 'box', whis=[0, 99.9])
-plt.show()
+# callcentrum['cas'] = callcentrum[0] * 60 + callcentrum[1]
+# #print(callcentrum['cas'])
+# callcentrum['cas'].hist(width = 150, color = "orange")
+# plt.show()
+# callcentrum['cas'].plot(kind = 'box', whis=[0, 99.9])
+# plt.show()
 
 # cvičení 3
 
