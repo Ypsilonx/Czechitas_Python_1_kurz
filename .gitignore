@@ -1,0 +1,12 @@
+# Virtuální prostředí
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Python
+*.egg-info/
+dist/
+build/
